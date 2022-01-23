@@ -1,0 +1,24 @@
+#variables for ball
+W = 1200                        #width
+H = 800                         #hight
+TIME_TO_DRAW = 5                #time between draw
+cur_color = 0
+next_color = 0
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (125, 125, 125)
+LIGHT_BLUE = (64, 128, 255)
+GREEN = (0, 200, 64)
+YELLOW = (225, 225, 0)
+PINK = (230, 50, 230)
+Color = [WHITE, GRAY, LIGHT_BLUE, GREEN, YELLOW, PINK]
+MODUL_COLOR = 6                 #value color - 1
+step = 5                        #change koordination y
+R = 112                         #radius of image
+move_x = 3                      #change koordination x
+start_speed = 10                #speed after landing
+acceleration = 0.07             #acceleration of movind down
+MUL_SLOW = 10                   #multiplier of slowing speed after land
+flag = False                    #existence of accelerating down
+right = False                   #touch right border(T), wait touching left(F)
+up = False                      #touch up borrder(T)
