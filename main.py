@@ -4,6 +4,7 @@ from ball_vars import *
 from objects import Ball
 
 
+
 def run():
     global W, H, TIME_TO_DRAW, Color, step, R, move_x, start_speed,\
     acceleration, MUL_SLOW, flag, right, cur_color, next_color, up,\
